@@ -149,7 +149,7 @@ main {
     margin: 0 0 2rem;
 }
 
-@media screen and (width < 900px) {
+@media screen and (max-width: 900px) {
     body {
         padding: 1rem;
     }
@@ -207,7 +207,7 @@ main {
     }
 }
 
-@media screen and (width < 430px) {
+@media screen and (max-width: 430px) {
     .title {
         font-size: 1.2rem;
     }
