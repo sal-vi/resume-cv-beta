@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f2f2f2;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin: 2rem 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li:before {
+    content: '\272D';
+    margin: 1rem;
+}
+
+#wrap {
+    border-top: 0.5rem solid #000;
+    border-bottom: 0.5rem solid #000;
+    width: 60rem;
+    background: #fff;
+    padding: 0 5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.in-column {
+    flex-direction: column;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.me {
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.5rem;
+    border-bottom: 0.3rem solid #000;
+    padding-bottom: 0.3rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.info {
+    align-items: center;
+}
+
+.contact-info {
+    align-items: end;
+}
+
+.item-contact {
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+}
+
+.item-contact:hover {
+    font-weight: bold;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.profile {
+    max-width: 13rem;
+}
+
+.title-item-section {
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+.pro-resume {
+    margin: 0 0 2rem;
+}
+
+.pro-resume p {
+    line-height: 1.8rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 0 0 0 1rem;
+}
+
+.knowledge {
+    margin: 0 0 2rem;
+}
+
+.knowledge-list {
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.item-experience {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 1.1rem;
+    padding: 0 0 1.1rem 1.5rem;;
+}
+
+.item-experience > p {
+    font-style: italic;
+}
+
+.desc-item-section {
+    padding: 0 0 0 1.5rem;
+}
+
+.desc-experience {
+    margin-top: 1rem;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.education {
+    margin: 0 0 2rem;
+}
+
+.languages {
+    margin: 0 0 2rem;
+}
