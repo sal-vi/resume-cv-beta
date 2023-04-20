@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
 
 * {
     margin: 0;
@@ -14,6 +15,11 @@ body {
     background: #f2f2f2;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 header {
     justify-content: space-between;
     align-items: center;
@@ -21,16 +27,6 @@ header {
 
 main {
     margin: 2rem 0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li:before {
-    content: '\272D';
-    margin: 1rem;
 }
 
 #wrap {
@@ -73,16 +69,15 @@ li:before {
 }
 
 .item-contact {
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0.2rem 1rem;
+    border-radius: 1rem 0 0 1rem;
 }
 
 .item-contact:hover {
-    font-weight: bold;
     background: black;
     color: white;
     cursor: pointer;
-    border-radius: 1rem 0 0 1rem;
 }
 
 .profile {
@@ -111,7 +106,18 @@ li:before {
 
 .knowledge-list {
     justify-content: space-around;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+
+.knowledge-list ul li{
+    list-style-type: '\272D';
+    padding: 0 0 0 1rem;
+}
+
+.desc-experience ul li {
+    list-style-type: '\272D';
+    padding: 0 0 0 1rem;
+    margin: 0 0 0 2rem;
 }
 
 .item-experience {
@@ -190,10 +196,26 @@ li:before {
     .profile > img {
         border-radius: 50%;
     }
+
+    .contact-info {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+    }
+    .knowledge-list {
+        padding: 0 0 0 3rem;
+    }
 }
 
 @media (width < 430px) {
     .title {
         font-size: 1.2rem;
+    }
+    .title-item-section {
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+    }
+    .pro-resume p {
+        font-size: 1rem;
     }
 }
