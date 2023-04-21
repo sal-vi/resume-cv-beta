@@ -29,6 +29,14 @@ main {
     margin: 2rem 0;
 }
 
+footer {
+    justify-content: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
 #wrap {
     border-top: 0.5rem solid #000;
     border-bottom: 0.5rem solid #000;
@@ -81,7 +89,16 @@ main {
 }
 
 .profile {
+    cursor: pointer;
+    position: relative;
     max-width: 13rem;
+}
+
+.profile-layer {
+    position: absolute;
+    right: -1rem;
+    bottom: -1rem;
+    border: 1px solid #fff;
 }
 
 .title-item-section {
@@ -149,6 +166,15 @@ main {
     margin: 0 0 2rem;
 }
 
+.modal-body-qr {
+    align-items: center;
+}
+
+.modal-content {
+    background: none;
+    border: none;
+}
+
 @media screen and (max-width: 900px) {
     body {
         padding: 1rem;
@@ -204,6 +230,13 @@ main {
     }
     .knowledge-list {
         padding: 0 0 0 3rem;
+    }
+
+    .profile-layer {
+        right: 50%;
+        bottom: -1rem;
+        transform: translate(50%, 0);
+        border: 1px solid #fff;
     }
 }
 
