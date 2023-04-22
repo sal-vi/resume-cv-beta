@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Felipe Jofré - Portafolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="wrap">
+    <header class="flex">
+        <section class="flex in-column me">
+            <div class="title">
+                <h1>Felipe Jofré Quevedo</h1>
+            </div>
+            <div class="flex in-column specs">
+                <div class="principal-spec">
+                    Desarrollador Web - Java ⁓ JavaScript ⁓
+                </div>
+                <div class="second-spec">
+                    Analista Programador ⁓ Junior ⁓
+                </div>
+                <div class="second-spec">
+                    <a href="/" class="btn btn-dark btn-sm mt-1">
+                        <i class="bi bi-arrow-left"></i> Volver al CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex info">
+            <div class="flex in-column contact-info">
+                <a href="mailto:felipe@uncodigo.com">
+                    <div class="item-contact">
+                        <i class="bi bi-envelope-at-fill"></i>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/56987271873" target="_blank">
+                    <div class="item-contact">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </a>
+                <a href="https://uncodigo.com/" target="_blank">
+                    <div class="item-contact">
+                        <i class="bi bi-link-45deg"></i>
+                    </div>
+                </a>
+                <a href="portfolio.html" target="_self">
+                    <div class="item-contact">
+                        <i class="bi bi-briefcase-fill"></i>
+                    </div>
+                </a>
+            </div>
+            <figure class="profile">
+                <a class="profile-layer btn btn-dark" data-bs-toggle="modal" data-bs-target="#aboutMeModal">
+                    <i class="bi bi-info-square-fill"></i>
+                </a>
+                <img class="full-width" src="./img/profile.jpg" alt="Felipe Jofré Quevedo">
+
+            </figure>
+        </div>
+    </header>
+    <main>
+        <section class="flex in-column projects">
+            <h2 class="title-item-section sub-line-bold">Portafolio - Proyectos</h2>
+            <div class="flex jobs">
+
+                <div class="card text-center mb-3">
+                    <img src="./img/media/cv-preview.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title job-title">Currículum Vitae (CV)</h3>
+                        <div class="card-text job-description">
+                            Sitio creado con tecnologías básicas tales como HTML, CSS y JS. Usando librerías para el
+                            maquetado y diseño web tales como: Bootstrap.
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://github.com/felipejoq/resume-cv"
+                               class="btn btn-secondary btn-sm">
+                                Repositorio
+                            </a>
+                            <a href="/" class="btn btn-dark btn-sm">
+                                Ver Proyecto <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-center mb-3">
+                    <img src="./img/media/rut-preview.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title job-title">Verificador RUT Chileno</h3>
+                        <div class="card-text job-description">
+                            Sitio para verificar que formato y forma de RUT chileno esté correcto. Usando tecnologías
+                            como HTML, CSS para la maquetación y JavaScript para la validación del formato del RUT.
+                        </div>
+
+                        <div class="btn-group">
+                            <a target="_blank" href="https://github.com/felipejoq/validar-rut-chileno"
+                               class="btn btn-secondary btn-sm">
+                                Repositorio
+                            </a>
+                            <a href="https://uncodigo.com/dev/validar-rut-chileno/" class="btn btn-dark btn-sm">
+                                Ver Proyecto <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-center mb-3">
+                    <img src="./img/media/bs-preview.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title job-title">"BSALE Challenge!"</h3>
+                        <div class="card-text job-description">
+                            Desarrollo fullstack para exponer una lista de productos como catálogo en un sitio
+                            con buscador. Desafío de la empresa "BSale".
+                            <br/><strong>Backend:</strong> Node.js y Express.js más MySQL community como gestor de BD
+                            relacional.
+                            <br/><strong>Frontend:</strong> HTML, CSS y JavaScript Vanilla.
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://github.com/felipejoq/front-end-bsale-challenge"
+                               class="btn btn-secondary btn-sm">
+                                Repositorio
+                            </a>
+                            <a href="https://bsale.uncodigo.com/store/" class="btn btn-dark btn-sm">
+                                Ver Proyecto <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-center mb-3">
+                    <img src="./img/media/vp-preview.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title job-title">Verplanos.com</h3>
+                        <div class="card-text job-description">
+                            Sitio web creado con Wordpress y administrado por mi. Es una revista online de planos y
+                            modelos de casas con una comunidad en Youtube de más 600 mil suscriptores.
+                        </div>
+                        <a href="https://verplanos.com/" class="btn btn-dark btn-sm">
+                            Ver Proyecto <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="flex">
+        <p>Felipe Jofré Quevedo - Analista Programador</p>
+    </footer>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="flex in-column modal-body-qr">
+                <figure class="pic-modal">
+                    <img src="./img/qr.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+</html>
