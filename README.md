@@ -2,6 +2,7 @@
 
 Desarrollo de un sitio web que sirva de currículum vitae para presentar mis servicios, proyectos, etc. Y que además
 incluye un portafolio de algunos proyectos realizados y que son relevantes.
+
 ---
 
 <p align="center">
