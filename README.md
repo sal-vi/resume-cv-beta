@@ -1,7 +1,8 @@
 # Currículum Vitae
 Desarrollo de un sitio web que sirva de currículum vitae para presentar mis servicios, proyectos, etc. Y que además incluye un portafolio de algunos proyectos realizados y que son relevantes.
-
-
+[
+![Vista previa currículum vitae](https://raw.githubusercontent.com/felipejoq/resume-cv/main/assets/img/preview.jpg)
+](https://cv.uncodigo.com)
 
 [Vista Previa](https://cv.uncodigo.com/)
 
