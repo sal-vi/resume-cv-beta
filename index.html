@@ -7,189 +7,108 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Felipe Jofré - Programador Web</title>
 
-    <meta property="og:image" content="./assets/img/cover-social.jpg" />
+    <meta property="og:image" content="./assets/img/cover-social.jpg"/>
 
-    <meta name="description" content="Programador Java ⁓ JavaScript ⁓ Junior ⁓ Apasionado por la tecnología y Desarrollo Web.">
+    <meta name="description"
+          content="Programador Java ⁓ JavaScript ⁓ Junior ⁓ Apasionado por la tecnología y Desarrollo Web.">
 
     <!-- Tag GSC -->
-    <meta name="google-site-verification" content="OghEJuCnKDYv9p3X7DUonw3JW8MUt0NNu4UkPgnP4qg" />
+    <meta name="google-site-verification" content="OghEJuCnKDYv9p3X7DUonw3JW8MUt0NNu4UkPgnP4qg"/>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
     <!-- Style Sheets -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-<body>
+<body class="flex in-column">
 <div id="wrap">
     <header class="flex">
-        <section class="flex in-column me">
-            <div class="title">
-                <h1>Felipe Jofré Quevedo</h1>
+        <div class="flex branding">
+            <div class="flex in-column picture">
+                <img src="./assets/img/profile-picture.jpg" alt="Felipe Jofré Quevedo">
             </div>
-            <div class="flex in-column specs">
-                <div class="principal-spec">
-                    Desarrollador Web - Java ⁓ JavaScript ⁓
-                </div>
-                <div class="second-spec">
-                    Analista Programador ⁓ Junior ⁓
-                </div>
-                <div class="second-spec">
-                    <a href="portfolio.html" class="btn btn-dark btn-sm mt-1">
-                        <i class="bi bi-briefcase-fill"></i> Ver Portafolio <i class="bi bi-arrow-right"></i>
+            <div class="flex in-column logo">
+                <h1 class="title">Felipe Jofré Quevedo</h1>
+                <p class="subtitle">Analista Programador - FullStack Dev</p>
+                <div class="flex utils">
+                    <a href="mailto:felipe@uncodigo.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.link/v90m96" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://uncodigo.com/" target="_blank">
+                        <i class="fa-solid fa-link"></i>
                     </a>
                 </div>
             </div>
-        </section>
-
-        <div class="flex info">
-            <div class="flex in-column contact-info">
-                <a href="mailto:felipe@uncodigo.com">
-                    <div class="item-contact">
-                        <i class="bi bi-envelope-at-fill"></i>
-                    </div>
-                </a>
-
-                <a href="https://wa.link/v90m96" target="_blank">
-                    <div class="item-contact">
-                        <i class="bi bi-whatsapp"></i>
-                    </div>
-                </a>
-
-                <a href="https://uncodigo.com/" target="_blank">
-                    <div class="item-contact">
-                        <i class="bi bi-link-45deg"></i>
-                    </div>
-                </a>
-
-                <a href="portfolio.html" target="_self">
-                    <div class="item-contact">
-                        <i class="bi bi-briefcase-fill"></i>
-                    </div>
-                </a>
-
-            </div>
-            <figure class="profile">
-                <div class="btn-group profile-layer">
-                    <a class="btn btn-secondary btn-sm" href="https://github.com/felipejoq" target="_blank">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    <a class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#aboutMeModal">
-                        <i class="bi bi-info-square-fill"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/felipejq/" target="_blank" class="btn btn-dark btn-sm">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                </div>
-                <img class="full-width" src="assets/img/profile.jpg" alt="Felipe Jofré Quevedo">
-
-            </figure>
         </div>
+        <nav class="flex">
+            <ul class="flex">
+                <li class="flex">
+                    <a class="flex in-column" href="#">
+                        <i class="fa-solid fa-user"></i>
+                        Perfil
+                    </a>
+                </li>
+                <li class="flex">
+                    <a class="flex in-column" href="#">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Conocimientos
+                    </a>
+                </li>
+                <li class="flex">
+                    <a class="flex in-column" href="#">
+                        <i class="fa-solid fa-user"></i>
+                        Experiencia
+                    </a>
+                </li>
+                <li class="flex">
+                    <a class="flex in-column" href="#">
+                        <i class="fa-solid fa-briefcase"></i>
+                        Proyectos
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
+
+
     <main>
-        <section class="flex in-column pro-resume">
-            <h2 class="title-item-section">Perfil profesional</h2>
-            <p>
-                Profesional capaz de resolver problemas lógicos de programación con base en la experiencia,
-                investigación y creatividad. Está fuertemente orientado al desarrollo de aplicaciones webs
-                destinadas a resolver problemáticas de diversos tipos en empresas y/o organizaciones.
-            </p>
+        <section class="desc-profile">
+            <h3>Perfil profesional</h3>
+            <p>Profesional capaz de resolver problemas lógicos de programación con base en la experiencia, investigación
+                y creatividad. Está fuertemente orientado al desarrollo de aplicaciones webs destinadas a resolver
+                problemáticas de diversos tipos en empresas y/o organizaciones.</p>
         </section>
-        <div class="content">
-            <section class="flex in-column knowledge">
-                <h2 class="title-item-section">Principales conocimientos</h2>
-                <div class="flex knowledge-list">
-                    <ul>
-                        <li>Java (Spring Boot)</li>
-                        <li>JavaScript TypeScript (Nest.js, Node.js, Express)</li>
-                        <li>Bases de Datos (MySQL, PostgreSQL, MongoDB)</li>
-                    </ul>
-
-                    <ul>
-                        <li>Angular (Básico)</li>
-                        <li>React.js (Básico)</li>
-                        <li>Librerías CSS (Bootstrap)</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="flex in-column experience">
-                <h2 class="title-item-section">Experiencia profesional</h2>
-                <div class="flex item-experience">
-                    <h3>Independiente, Chillán / Ñuble</h3>
-                    <p>Diciembre 2022 - ACTUALIDAD</p>
-                    <div class="flex in-column desc-experience">
-                        <p>Creación de API RESTful para un blog (Para aprendizaje y profundización de
-                            conocimientos).</p>
-                        <ul>
-                            <li>Backend: Java con Spring Boot 3+ y Base de datos relacional (MySQL). (<a
-                                    href="https://github.com/felipejoq/blog-backend-spring-boot" target="_blank">repositorio</a>)
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="flex item-experience">
-                    <h3>“Bazar Nilda”, Chillán / Ñuble</h3>
-                    <p>Marzo – Octubre 2018</p>
-                    <div class="flex in-column desc-experience">
-                        <p>
-                            Desarrollar un sistema para gestionar el stock y permitir el control de movimientos de
-                            mercaderías entre bodegas.
-                        </p>
-                        <ul>
-                            <li>Identificar problemas, tomar requerimientos y realizar visitas a la organización.</li>
-                            <li>Desarrollar un sistema web usando Java (Spring Boot) y JavaScript (Angular).</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="flex in-column education">
-                <h2 class="title-item-section">Formación</h2>
-                <div class="desc-item-section">
-                    <ul>
-                        <li><strong>Analista Programador.</strong> Inacap, 2018.</li>
-                        <li><strong>Constructor Civil.</strong> Inacap, 2011.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="flex in-column languages">
-                <h2 class="title-item-section">Idiomas</h2>
-                <div class="desc-item-section">
-                    <ol>
-                        <li><strong>Inglés</strong> (Nivel medio, no certificado)</li>
-                    </ol>
-                </div>
-            </section>
-
-        </div>
+        <section>
+            <h3>Principales conocimientos</h3>
+            <p>Frontend / Backend</p>
+        </section>
+        <section>
+            <h3>Experiencia profesional</h3>
+            <p>Principales experiencias...</p>
+        </section>
+        <section>
+            <h3>Formación académica</h3>
+            <p>FullStack JavaScript. "Desafío Latam", en curso.</p>
+            <p>Analista Programador. Inacap, 2018.</p>
+            <p>Constructor Civil. Inacap, 2011.</p>
+        </section>
+        <section>
+            <h3>Idiomas</h3>
+            <p>Inglés (Nivel medio, no certificado).</p>
+        </section>
     </main>
-    <footer class="flex">
-        <p>Felipe Jofré Quevedo - Analista Programador</p>
+    <footer>
     </footer>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="flex in-column modal-body-qr">
-                <figure class="pic-modal">
-                    <img src="assets/img/qr.png" alt="">
-                </figure>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
 </body>
 </html>
