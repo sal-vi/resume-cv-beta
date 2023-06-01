@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: stretch;
     border-top: 1rem solid #000000;
-    border-bottom: 0.1rem solid #000000;
+    border-bottom: 2px solid #000000;
     gap: 1rem;
     margin: 0 0 2rem;
 }
@@ -51,6 +51,13 @@ nav a {
 nav a:hover {
     color: #FFFFFF;
     background-color: #000000;
+}
+
+/** Utils **/
+.divider {
+    height: 2px;
+    background: #000000;
+    margin: 0 0 1rem;
 }
 
 #wrap {
@@ -110,4 +117,26 @@ nav a:hover {
 
 .in-column {
     flex-direction: column;
+}
+
+/** Sections **/
+.section-profile {
+
+}
+
+.section-profile h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: #000000;
+    align-self: start;
+    color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.section-profile p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    padding: 1rem;
+    margin: 0 0 1rem;
 }
