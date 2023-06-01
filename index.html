@@ -18,13 +18,15 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
-    <!-- Style Sheets -->
-    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body class="flex in-column">
 <div id="wrap">
@@ -104,7 +106,40 @@
         <section  class="section-profile flex in-column">
             <h3 id="#projects"><i class="fa-solid fa-briefcase"></i> ~/ Proyectos recientes</h3>
             <div class="divider"></div>
-            <p>Principales proyectos...</p>
+            
+            <div class="flex cards-projects">
+                <div class="card-project">
+                    <img src="./assets/img/projects/rut-preview.jpg" alt="Proyecto 1" class="img-card">
+                    <h4 class="title-card">Verificador RUT Chileno</h4>
+                    <div class="body-card">
+                        <p>
+                            Sitio para verificar que formato y forma de RUT chileno esté correcto. Usando tecnologías como HTML, CSS para la maquetación y JavaScript para la validación del formato del RUT.
+                        </p>
+                    </div>
+                    <div class="flex footer-card">
+                        <a href="https://verplanos.com/" target="_blank">
+                            Ver Proyecto
+                        </a>
+                        <a href="https://uncodigo.com/dev/validar-rut-chileno/" target="_blank">
+                            Repositorio
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-project">
+                    <img src="./assets/img/projects/vp-preview.jpg" alt="Proyecto 1" class="img-card">
+                    <h4 class="title-card">Verplanos.com</h4>
+                    <div class="body-card">
+                        <p>Sitio web creado con Wordpress y administrado por mi. Es una revista online de planos y modelos de casas con una comunidad en Youtube de más 600 mil suscriptores.</p>
+                    </div>
+                    <div class="flex footer-card">
+                        <a href="https://verplanos.com/" target="_blank">
+                            Ver Proyecto
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <section  class="section-profile flex in-column">
             <h3 id="#experience"><i class="fa-brands fa-black-tie"></i> ~/ Experiencia profesional</h3>
@@ -124,8 +159,12 @@
             <p>Inglés (Nivel medio, no certificado).</p>
         </section>
     </main>
-    <footer>
+
+    <footer class="flex">
+        <p>Felipe Jofré Quevedo &copy; 2023</p>
     </footer>
+
+    <script src="./assets/js/main.js"></script>
 </div>
 
 </body>
