@@ -52,25 +52,25 @@
         <nav class="flex">
             <ul class="flex">
                 <li class="flex">
-                    <a class="flex in-column" href="#">
+                    <a class="flex in-column" href="#profile">
                         <i class="fa-solid fa-user"></i>
                         Perfil
                     </a>
                 </li>
                 <li class="flex">
-                    <a class="flex in-column" href="#">
+                    <a class="flex in-column" href="#knows">
                         <i class="fa-solid fa-graduation-cap"></i>
                         Conocimientos
                     </a>
                 </li>
                 <li class="flex">
-                    <a class="flex in-column" href="#">
+                    <a class="flex in-column" href="#experience">
                         <i class="fa-solid fa-hammer"></i>
                         Experiencia
                     </a>
                 </li>
                 <li class="flex">
-                    <a class="flex in-column" href="#">
+                    <a class="flex in-column" href="#projects">
                         <i class="fa-solid fa-briefcase"></i>
                         Proyectos
                     </a>
@@ -81,36 +81,45 @@
 
     <main>
         <section class="section-profile flex in-column">
-            <h3><i class="fa-solid fa-user"></i> ~/ Perfil profesional</h3>
+            <h3 id="#profile"><i class="fa-solid fa-user"></i> ~/ Perfil profesional</h3>
             <div class="divider"></div>
             <p>Profesional capaz de resolver problemas lógicos de programación con base en la experiencia, investigación
                 y creatividad. Está fuertemente orientado al desarrollo de aplicaciones webs destinadas a resolver
                 problemáticas de diversos tipos en empresas y/o organizaciones.</p>
         </section>
         <section class="section-profile flex in-column">
-            <h3><i class="fa-solid fa-code"></i> ~/ Principales conocimientos</h3>
+            <h3 id="#knows"><i class="fa-solid fa-code"></i> ~/ Principales conocimientos</h3>
             <div class="divider"></div>
-            <p>Frontend / Backend</p>
+            <div class="flex knows">
+                <ul>
+                    <li>Java (Spring Boot)</li>
+                    <li>JavaScript / TypeScript (Nestjs, Node.js)</li>
+                    <li>Bases de Datos (MySQL, PostgreSQL, MongoDB)</li>
+                    <li>Angular (Básico)</li>
+                    <li>React (Básico)</li>
+                    <li>Frameworks CSS (Bootstrap)</li>
+                </ul>
+            </div>
         </section>
         <section  class="section-profile flex in-column">
-            <h3><i class="fa-solid fa-briefcase"></i> ~/ Proyectos recientes</h3>
+            <h3 id="#projects"><i class="fa-solid fa-briefcase"></i> ~/ Proyectos recientes</h3>
             <div class="divider"></div>
             <p>Principales proyectos...</p>
         </section>
         <section  class="section-profile flex in-column">
-            <h3><i class="fa-brands fa-black-tie"></i> ~/ Experiencia profesional</h3>
+            <h3 id="#experience"><i class="fa-brands fa-black-tie"></i> ~/ Experiencia profesional</h3>
             <div class="divider"></div>
             <p>Principales experiencias...</p>
         </section>
         <section  class="section-profile flex in-column">
-            <h3><i class="fa-solid fa-graduation-cap"></i> ~/ Formación académica</h3>
+            <h3 id="#academic"><i class="fa-solid fa-graduation-cap"></i> ~/ Formación académica</h3>
             <div class="divider"></div>
             <p>FullStack JavaScript. "Desafío Latam", en curso.</p>
             <p>Analista Programador. Inacap, 2018.</p>
             <p>Constructor Civil. Inacap, 2011.</p>
         </section>
         <section  class="section-profile flex in-column">
-            <h3>Idiomas</h3>
+            <h3 id="#languages"><i class="fa-solid fa-earth-americas"></i> ~/ Idiomas</h3>
             <div class="divider"></div>
             <p>Inglés (Nivel medio, no certificado).</p>
         </section>
