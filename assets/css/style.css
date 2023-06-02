@@ -7,6 +7,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     width: 100%;
     align-items: center;
@@ -105,7 +113,7 @@ footer {
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.2rem;
 }
 
@@ -152,7 +160,7 @@ footer {
 
 .section-desc h3 {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: capitalize;
     background: #000000;
     align-self: start;
@@ -220,7 +228,7 @@ footer {
 }
 
 .card-title {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .card-footer {
@@ -248,4 +256,44 @@ footer {
 
 .align-left {
     justify-content: start;
+}
+
+.experience-article {
+    margin: 1rem 0 2rem;
+    padding: 0 1rem;
+}
+
+.title-experience {
+    justify-content: space-between;
+    margin: 0 0 0.5rem;
+}
+
+.title-experience h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.date-experience {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.description-experience {
+}
+
+.description-experience p {
+    font-size: 1.1rem;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.description-experience ul {
+    list-style-type: '\272D';
+    width: 100%;
+    margin: 0 0 0 1rem;
+    font-size: 1rem;
+}
+
+.description-experience li {
+    padding: 0 0 0 1rem;
 }
