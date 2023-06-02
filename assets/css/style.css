@@ -263,6 +263,7 @@ footer {
     background: #000000;
     font-size: 1rem;
     font-weight: 300;
+    margin: 0 0 2rem;
 }
 
 .more-projects a:hover {
@@ -327,4 +328,8 @@ footer {
 
 .academic-data li {
     padding: 0 0 0 1rem;
+}
+
+.languages {
+    font-size: 1rem;
 }
