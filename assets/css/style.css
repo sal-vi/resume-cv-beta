@@ -333,3 +333,59 @@ footer {
 .languages {
     font-size: 1rem;
 }
+
+@media screen and (max-width: 375px) {
+    #wrap {
+        width: 100%;
+        margin: 0;
+    }
+    header {
+        flex-direction: column;
+        gap: 0;
+    }
+    nav {
+        max-width: 375px;
+        padding: 0.3rem 0.6rem;
+        border-top: 2px solid #000000;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav li {
+
+    }
+    nav a {
+        gap: 0;
+        font-size: 0.9rem;
+        padding: 0.2rem;
+        margin: 0;
+    }
+
+    nav a > .fa-solid{
+        display: none;
+    }
+
+    .branding {
+        flex-direction: column;
+        justify-content: end;
+        gap: 0.3rem;
+    }
+
+    .picture{
+        width: 100%;
+        height: 200px;
+    }
+
+    .logo {
+        align-items: center;
+    }
+
+    .utils{
+        width: 100%;
+        justify-content: center;
+    }
+    .utils a {
+    }
+}
