@@ -85,15 +85,16 @@
     </header>
 
     <main>
-        <section id="#profile" class="section-desc flex in-column">
+        <section id="profile" class="section-desc flex in-column">
             <h3><i class="fa-solid fa-user"></i> ~/ Perfil profesional</h3>
             <div class="divider"></div>
             <p>Profesional capaz de resolver problemas lógicos de programación con base en la experiencia, investigación
                 y creatividad. Está fuertemente orientado al desarrollo de aplicaciones webs destinadas a resolver
                 problemáticas de diversos tipos en empresas y/o organizaciones.</p>
         </section>
+
         <section class="section-desc flex in-column">
-            <h3 id="#knows"><i class="fa-solid fa-code"></i> ~/ Principales conocimientos</h3>
+            <h3 id="knows"><i class="fa-solid fa-code"></i> ~/ Principales conocimientos</h3>
             <div class="divider"></div>
             <div class="flex knows">
                 <ul>
@@ -106,81 +107,85 @@
                 </ul>
             </div>
         </section>
-        <section id="#projects" class="section-desc flex in-column">
+
+        <section id="projects" class="section-desc flex in-column">
             <h3><i class="fa-solid fa-briefcase"></i> ~/ Proyectos recientes</h3>
             <div class="divider"></div>
-
-            <div class="flex card">
-                <div class="card-img">
-                    <img class="img-project" src="./assets/img/projects/vp-preview.jpg" alt="Proyecto 1">
+            <div class="flex in-column card-container">
+                <div class="flex card">
+                    <div class="card-img">
+                        <img class="img-project" src="./assets/img/projects/vp-preview.jpg" alt="Proyecto 1">
+                    </div>
+                    <div class="flex in-column card-body">
+                        <div class="card-title">Verplanos.com</div>
+                        <div class="card-text">
+                            Sitio web creado con Wordpress y administrado por mi. Es una revista online
+                            de planos y modelos de casas con una comunidad en Youtube de más 600 mil suscriptores.
+                        </div>
+                        <div class="flex card-footer align-right">
+                            <a href="https://verplanos.com/" target="_blank">
+                                <i class="fa-solid fa-eye"></i> Ver Proyecto
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex in-column card-body">
-                    <div class="card-title">Verplanos.com</div>
-                    <div class="card-text">
-                        Sitio web creado con Wordpress y administrado por mi. Es una revista online
-                        de planos y modelos de casas con una comunidad en Youtube de más 600 mil suscriptores.
+
+                <div class="flex card row-reverse">
+                    <div class="card-img">
+                        <img class="img-project" src="./assets/img/projects/rut-preview.jpg" alt="Proyecto 1">
                     </div>
-                    <div class="flex card-footer align-right">
-                        <a href="https://verplanos.com/" target="_blank">
-                            <i class="fa-solid fa-eye"></i> Ver Proyecto
-                        </a>
+                    <div class="flex in-column card-body">
+                        <div class="card-title">Verificador RUT Chileno</div>
+                        <div class="card-text">
+                            Sitio para verificar que formato y forma de RUT chileno esté correcto. Usando tecnologías
+                            como
+                            HTML, CSS para la maquetación y JavaScript para la validación del formato del RUT.
+                        </div>
+                        <div class="flex card-footer align-left">
+                            <a href="https://uncodigo.com/dev/validar-rut-chileno/" target="_blank">
+                                <i class="fa-solid fa-eye"></i> Ver Proyecto
+                            </a>
+                            <a href="https://github.com/felipejoq/validar-rut-chileno" target="_blank">
+                                <i class="fa-brands fa-square-github"></i> Repositorio
+                            </a>
+                        </div>
                     </div>
+                </div>
+
+                <div class="flex card">
+                    <div class="card-img">
+                        <img class="img-project" src="./assets/img/projects/bs-preview.jpg" alt="Proyecto 1">
+                    </div>
+                    <div class="flex in-column card-body">
+                        <div class="card-title">"BSALE Challenge!"</div>
+                        <div class="card-text">
+                            Desarrollo fullstack para exponer una lista de productos como catálogo en un sitio con
+                            buscador.
+                            Desafío de la empresa "BSale".
+                            Backend: Node.js y Express.js más MySQL community como gestor de BD relacional.
+                            Frontend: HTML, CSS y JavaScript Vanilla.
+                        </div>
+                        <div class="flex card-footer align-right">
+                            <a href="https://uncodigo.com/dev/validar-rut-chileno/" target="_blank">
+                                <i class="fa-solid fa-eye"></i> Ver Proyecto
+                            </a>
+                            <a href="https://github.com/felipejoq/validar-rut-chileno" target="_blank">
+                                <i class="fa-brands fa-square-github"></i> Repositorio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex more-projects">
+                    <a href="https://github.com/felipejoq" target="_blank">
+                        <i class="fa-brands fa-github"></i> Ver mas - Github/Felipejoq <i
+                            class="fa-solid fa-square-arrow-up-right"></i>
+                    </a>
                 </div>
             </div>
-
-            <div class="flex card row-reverse">
-                <div class="card-img">
-                    <img class="img-project" src="./assets/img/projects/rut-preview.jpg" alt="Proyecto 1">
-                </div>
-                <div class="flex in-column card-body">
-                    <div class="card-title">Verificador RUT Chileno</div>
-                    <div class="card-text">
-                        Sitio para verificar que formato y forma de RUT chileno esté correcto. Usando tecnologías como
-                        HTML, CSS para la maquetación y JavaScript para la validación del formato del RUT.
-                    </div>
-                    <div class="flex card-footer align-left">
-                        <a href="https://uncodigo.com/dev/validar-rut-chileno/" target="_blank">
-                            <i class="fa-solid fa-eye"></i> Ver Proyecto
-                        </a>
-                        <a href="https://github.com/felipejoq/validar-rut-chileno" target="_blank">
-                            <i class="fa-brands fa-square-github"></i> Repositorio
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex card">
-                <div class="card-img">
-                    <img class="img-project" src="./assets/img/projects/bs-preview.jpg" alt="Proyecto 1">
-                </div>
-                <div class="flex in-column card-body">
-                    <div class="card-title">"BSALE Challenge!"</div>
-                    <div class="card-text">
-                        Desarrollo fullstack para exponer una lista de productos como catálogo en un sitio con buscador.
-                        Desafío de la empresa "BSale".
-                        Backend: Node.js y Express.js más MySQL community como gestor de BD relacional.
-                        Frontend: HTML, CSS y JavaScript Vanilla.
-                    </div>
-                    <div class="flex card-footer align-right">
-                        <a href="https://uncodigo.com/dev/validar-rut-chileno/" target="_blank">
-                            <i class="fa-solid fa-eye"></i> Ver Proyecto
-                        </a>
-                        <a href="https://github.com/felipejoq/validar-rut-chileno" target="_blank">
-                            <i class="fa-brands fa-square-github"></i> Repositorio
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex more-projects">
-                <a href="https://github.com/felipejoq" target="_blank">
-                    <i class="fa-brands fa-github"></i> Ver mas - Github/Felipejoq <i
-                        class="fa-solid fa-square-arrow-up-right"></i>
-                </a>
-            </div>
-
         </section>
-        <section id="#experience" class="section-desc flex in-column">
+
+        <section id="experience" class="section-desc flex in-column">
             <h3><i class="fa-brands fa-black-tie"></i> ~/ Experiencia profesional</h3>
             <div class="divider"></div>
 
