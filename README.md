@@ -19,6 +19,6 @@ incluye un portafolio de algunos proyectos realizados y que son relevantes.
 - Tecnologías básicas para el desarrollo web, tales como:
     - HTML
     - CSS
-    - JavaScript
+    - JavaScript (Aun sin implementar)
 - Librerías para el diseño maquetación web:
-    - Bootstrap v5.3
+    - Solo CSS escrito desde cero.
