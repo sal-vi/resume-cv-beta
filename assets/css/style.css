@@ -502,6 +502,10 @@ footer {
         margin: 0 0 0 1rem;
         font-size: .9rem;
     }
+    .academic-data {
+        width: 90%;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 912px)  {
