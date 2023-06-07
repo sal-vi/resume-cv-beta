@@ -22,3 +22,9 @@ incluye un portafolio de algunos proyectos realizados y que son relevantes.
     - JavaScript (Aun sin implementar)
 - Librerías para el diseño maquetación web:
     - Solo CSS escrito desde cero.
+
+---
+📝 Nota:
+Fork a proyectos de compañeros:
+- Javier Middleton 👉 [Repositorio](https://github.com/felipejoq/my-cv-support-classmate-1)
+- Salvador 👉 [Repositorio](#)
