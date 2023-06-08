@@ -27,4 +27,4 @@ incluye un portafolio de algunos proyectos realizados y que son relevantes.
 📝 Nota:
 Fork a proyectos de compañeros:
 - Javier Middleton 👉 [Repositorio](https://github.com/felipejoq/my-cv-support-classmate-1)
-- Salvador 👉 [Repositorio](#)
+- Lorena Silva 👉 [Repositorio](https://github.com/felipejoq/portafolio_silva_s-suport-clasmate-2)
