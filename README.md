@@ -6,10 +6,10 @@ incluye un portafolio de algunos proyectos realizados y que son relevantes.
 ---
 
 <p align="center">
-  <a href="[https://felipejoq.github.io/resume-cv-beta](https://felipejoq.github.io/resume-cv-beta)">
-    <img src="https://raw.githubusercontent.com/felipejoq/resume-cv/main/assets/img/preview.jpg"  alt="Vista previa proyecto"/>
-    Vista Previa
-  </a>
+<a href="https://felipejoq.github.io/resume-cv-beta/">
+    <img src="https://raw.githubusercontent.com/felipejoq/resume-cv/main/assets/img/preview.jpg" alt="Vista previa proyecto"/>
+    <br /> Vista Previa
+</a>
 </p>
 
 ---
